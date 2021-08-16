@@ -14,7 +14,7 @@ const httpLink = createHttpLink({
 });
 const authLink = setContext((_, { headers }) => {
 
-  const token = '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';
+  const token = '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';
 
   return {
     headers: {
